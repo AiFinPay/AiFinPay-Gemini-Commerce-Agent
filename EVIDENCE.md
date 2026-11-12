@@ -50,8 +50,8 @@ The Gemini startup smoke test is non-financial: it verifies a real Gemini API ca
 - [ ] Number of unique external users acquired during the hackathon
 - [ ] Number of unique external paying users
 - [ ] Gross payment volume
-- [ ] AiFinPay 1% revenue
-- [ ] Merchant 99% proceeds
+- [ ] AiFinPay protocol revenue
+- [ ] Merchant proceeds
 - [ ] Related-party revenue reported separately
 - [ ] P&L for May, June, July and August
 - [ ] Actual Google Cloud, Render and marketing expenses
