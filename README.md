@@ -285,7 +285,7 @@ curl -sS -X POST http://localhost:8080/v1/objectives/OBJECTIVE_ID/run \
 | Complex | `$0.002` |
 | Premium | `$0.005` |
 
-Successful AIFP-1 transactions record 99% merchant proceeds and a fixed 1% AiFinPay protocol fee. Failed or blocked actions add zero payment volume. The policy engine rejects any model-generated price mutation.
+Successful AIFP-1 transactions record the merchant proceeds and the AiFinPay protocol fee. A protocol fee is included in the quoted price; each quote and the on-chain transaction show the exact split between the merchant and the protocol. Failed or blocked actions add zero payment volume. The policy engine rejects any model-generated price mutation.
 
 ## Documentation
 

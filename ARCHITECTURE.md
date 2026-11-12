@@ -248,7 +248,7 @@ AIFP-1 performs:
 5. paid request retry;
 6. delivery to the calling service.
 
-The application records gross amount, 99% merchant proceeds, 1% protocol fee, transaction evidence when available, HTTP status, content type, and a delivery digest.
+The application records gross amount, merchant proceeds, protocol fee, transaction evidence when available, HTTP status, content type, and a delivery digest.
 
 ## 12. Circle isolation
 
@@ -275,8 +275,8 @@ The metrics endpoint separates:
 - approved and rejected decisions;
 - successful and failed payments;
 - gross payment volume;
-- merchant revenue at 99%;
-- AiFinPay protocol revenue at 1%;
+- merchant revenue;
+- AiFinPay protocol revenue;
 - unique and paying requesters.
 
 Only successful payment records contribute revenue. Screenshots and exports must be backed by source records listed in [EVIDENCE.md](EVIDENCE.md).
